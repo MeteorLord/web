@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The Guy Code</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script>
+    // This code will add a smooth scroll effect to the navigation links.
+    $('nav a').on('click', function() {
+      $('html, body').animate({
+        scrollTop: $(this.hash).offset().top
+      }, 500);
+    });
+  </script>
+</head>
+<body>
+  <nav>
+    <a href="./index.html">Home</a>
+    <a href="./about.html">About</a>
+    <a href="./projects.html">Projects</a>
+  </nav>
+  <main>
+    <h1>TheGuyCode</h1>
+    <p>This is the homepage for TheGuyCode. Here you will find his projects, goals, and interests.</p>
+    <ul>
+      <li>I like computers.</li>
+      <li>I also like AI and data.</li>
+      <li>As well as math.</li>
+    </ul>
+    <p>I do stuff sometimes.</p>
+  </main>
+  <footer>
+    <p>Copyright &copy; 2023 TheGuyCode</p>
+  </footer>
+</body>
+</html>
